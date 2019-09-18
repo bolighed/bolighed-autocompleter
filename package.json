@@ -1,0 +1,29 @@
+{
+  "name": "@bolighed/autocompleter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "browser": "dist/bolighed.autocompleter.js",
+  "module": "dist/bolighed.autocompleter.es6",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@viewjs/utils": "^2.4.0",
+    "decko": "^1.2.0",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-typescript2": "^0.24.2",
+    "typescript": "^3.6.3"
+  }
+}
